@@ -1,0 +1,11 @@
+<?php
+session_start();
+$_SESSION['cerrar']=$_POST['cerrar'];
+$_SESSION['correo'];
+$_SESSION['contraseña'];
+if($_SESSION['cerrar']){
+    unset($_SESSION['correo'],$_SESSION['contraseña']);
+    header('location:login.php');
+    die();
+}
+?>

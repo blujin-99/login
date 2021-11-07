@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+body{
+    font-family: 'arimo', sons-serif;
+}
+/* esta parte es el diseño del login */
+.login{
+    background-color: rgb(15, 59, 255);
+    text-align: center;
+    height: 300px;
+    width: 380px;
+    position: relative;
+    left: 14cm;
+    top: 3cm;
+    color:rgb(240, 245, 245);
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgb(150, 149, 149);
+}
+.login h1{
+    position: relative;
+    top:1cm;
+}
+.barras{
+    display: block;
+    width: 250px;
+    height: 25px;
+    position: relative;
+    left: 1.5cm;
+    top:1cm;
+    margin-top: 0.5cm ;
+    border-radius: 3px;
+}
+#boton{
+    width: 100px;
+    height: 40px;
+    display:block;
+    position: relative;
+    left:3.6cm;
+    top:2cm ;
+    background-color: rgb(12, 185, 6) ;
+    border: solid 1px rgb(6, 114, 3);
+    border-radius: 5px;
+    color: cornsilk;
+}
+#boton:hover{
+    background-color: chartreuse;
+    color:rgb(6, 114, 3);
+    box-shadow:2px 4px 4px black;
+}
+.text-registro{
+    display: inline-block;
+    position: relative;
+    left:16cm;
+    top:4cm;
+    margin-left: 10px;
+}
+/* esta parte es el diseño del formulario de registro */
+.form-registro{
+    height: 400px;
+    width: 380px;
+    position: relative;
+    left: 14cm;
+    top: 3cm;
+    border:solid 2px rgb(119, 183, 235);
+    border-radius: 5px;
+    box-shadow:rgb(150, 149, 149) 5px 10px 18px;
+}
+.form-registro p{
+    position: relative;
+    left: 58px;
+    color: royalblue;
+}
+.barra-datos{
+    display: block;
+    width: 250px;
+    height: 25px;
+    position: relative;
+    left: 1.5cm;
+    top:0px;
+    border-radius: 3px;
+}
+#boton-2{
+    width: 100px;
+    height: 40px;
+    display:block;
+    position: relative;
+    left:3.6cm;
+    top:2cm ;
+    border: solid 1px rgb(69, 146, 248);
+    border-radius: 5px;
+    background-color: rgb(69, 146, 248);
+    color:rgb(240, 245, 245);
+}
+#boton-2:hover{
+background-color: rgb(12, 110, 238);
+box-shadow:slategray 2px 4px 4px;
+}
+/* esta parte se diseñor pertenece a la pagina registro*/
+.fondo-registro{
+    background-image: url('img/hand-painted-watercolor-background-with-sky-and-clouds-shape.jpg');
+}
+#registro-text{
+    position: relative;
+    left: 12cm;
+    top:2cm;
+    color: rgb(252, 35, 100);
+}
+#text-a{
+    position: relative;
+    left:17cm;
+    top:4cm;
+    list-style:none;
+    background-color: rgb(97, 73, 141);
+    border: solid 2px rgb(97, 73, 141);
+    color: rgb(240, 245, 245);
+    border-radius: 5px;
+    padding: 4px 5px;
+    text-decoration: none;
+}
+#text-a:hover{
+    background-color: rgb(128, 100, 180);
+}
+/* comenzamos el diseño de la cuenta*/
+#mi-cuenta-body{
+    background-color: rgb(161, 238, 215);
+}
+#text-mi-cuenta{
+    position: relative;
+    left: 16cm;
+    top:2cm;
+    color: rgb(145, 11, 145);
+}
+#form-mi-cuenta{
+    position: relative;
+    left: 17.5cm;
+    top:5cm;
+}
+#cerrar-sesion{
+    width: 100px;
+    height: 30px;  
+    border: solid 1px rgb(211, 203, 214);
+    border-radius: 5px;
+    background-color: rgb(6, 80, 177);
+    color:white;
+}
+#cerrar-sesion:hover{
+    background-color: rgb(243, 30, 30);
+    box-shadow:slategray 2px 4px 4px;
+}
